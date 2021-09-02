@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'set'
+                sh 'ls /home/'
+                //bat 'set'
             }
         }
     }
